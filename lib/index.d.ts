@@ -284,6 +284,9 @@ interface MoveObjectEventEmitter extends EventEmitter {
 }
 
 interface S3Client {
+
+  s3: S3
+
   /**
    * See http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#putObject-property
    * The difference between using AWS SDK putObject and this one:
